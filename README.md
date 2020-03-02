@@ -21,7 +21,7 @@ Then, visit http://localhost:8080. It should display the text "Hello world".
     - I tried to `docker pull` the image directly and it succeeded.
     - I noticed that when I do `minikube start`, I get this warning:
 
-```sh
+```
 $ minikube start
 😄  minikube v1.7.2 on Darwin 10.15.3
 ✨  Using the hyperkit driver based on existing profile
