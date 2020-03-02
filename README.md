@@ -1,6 +1,6 @@
-# Hello Node
+# k8s-tutorial
 
-From https://kubernetes.io/docs/tutorials/hello-minikube/
+This is my code for walking through the tutorials at https://kubernetes.io/docs/tutorials/ and elsewhere.
 
 ## Setup
 

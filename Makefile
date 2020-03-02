@@ -10,6 +10,7 @@ dockerfile:
 	docker build . --tag $(NAME):$(IMAGE_VERSION)
 
 .PHONY: deployment
+deployment:
 	kubectl apply -k kustomize
 
 .PHONY: clean
