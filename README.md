@@ -7,6 +7,7 @@ This is my code for walking through the tutorials at https://kubernetes.io/docs/
 ```sh
 minikube start
 make all
+minikube service hello-node
 ```
 
 Then, visit http://localhost:8080. It should display the text "Hello world".
